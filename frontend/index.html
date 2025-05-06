@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+
+    <h1>Task Manager</h1>
+
+    <form action="" id="TaskForm">
+        <input   name="title" placeholder="title" required>
+        <input   name ="description" placeholder="description" required>
+        <input  name ="assignedEmployee" placeholder="assign to" required>
+        <input  name ="priority" placeholder="priority (Low/High)" required>
+        <input   name ="deadline" placeholder="DeadLine" type="date" required>
+
+            <select name="" id="">
+                <option value="">Pending</option>
+                <option value="">In Progress</option>
+                <option value=""> Complate</option>
+            </select>
+        <button type="submit">Create Task</button>
+    </form>
+    <ul id="TaskList"></ul>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
